@@ -1,0 +1,74 @@
+{
+  "name": "Launch 1",
+  "launchImages": [{ "id": 1, "img": "image.jpg" }],
+  "location": ["dhaka", "barishasl", "shylet"],
+  "destination": ["dhaka", "chitagong"],
+  "description": "all the details.",
+  "variant": ["normal", "non-ac", "ac", "vip"],
+  "time": ["10 Am", "2 Pm"],
+  "service": [
+    {
+      "name": "Launch 1",
+      "from": "dhaka",
+      "to": "chitagon",
+      "variant": "normal",
+      "features": [
+        { "name": " 2 bad Cabin", "img": "image.jpg", "price": 500 }
+      ],
+      "totalprice": 500,
+      "time": "10 Am",
+      "shortDescription": "Short Description",
+      "reviews": 4
+    }
+  ],
+  "Orders": [
+    {
+      "selected": "Service ref",
+      "populate": [
+        "name",
+        "from",
+        "to",
+        "variant",
+        "features",
+        "totalprice",
+        "time"
+      ],
+      "avaiableSit": [1, 2, 3, 4, 5, 6, 7],
+      "selectedSit": [1, 2, 4],
+      "selectedDate": "15 Nov 2020",
+      "quantity": 3
+    },
+    {
+      "selected": "Service ref",
+      "populate": [
+        "name",
+        "from",
+        "to",
+        "variant",
+        "features",
+        "totalprice",
+        "time"
+      ],
+      "avaiableSit": [3, 5, 6, 7],
+      "selectedSit": [1, 2, 4],
+      "selectedDate": "15 Nov 2020",
+      "quantity": 3
+    },
+    {
+      "selected": "Service ref",
+      "populate": [
+        "name",
+        "from",
+        "to",
+        "variant",
+        "features",
+        "totalprice",
+        "time"
+      ],
+      "avaiableSit": [1, 2, 3, 4, 5, 6, 7],
+      "selectedSit": [1, 2, 4],
+      "selectedDate": "16 Nov 2020",
+      "quantity": 3
+    }
+  ]
+}
